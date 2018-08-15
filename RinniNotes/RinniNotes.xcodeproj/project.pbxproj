@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A4105A5821236A83007257AB /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4105A5721236A83007257AB /* Notes.swift */; };
+		A400DB382124E2E100DED78A /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A400DB372124E2E100DED78A /* CoreDataHelper.swift */; };
 		A47E844C21225FC400096FCE /* ListNotesTableViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E844B21225FC400096FCE /* ListNotesTableViewConroller.swift */; };
 		A47E844E2122600D00096FCE /* DisplayNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E844D2122600D00096FCE /* DisplayNotesViewController.swift */; };
 		A4C0C2FE21225155008AFC9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0C2FD21225155008AFC9C /* AppDelegate.swift */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A4105A5721236A83007257AB /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		A400DB372124E2E100DED78A /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 		A47E844B21225FC400096FCE /* ListNotesTableViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNotesTableViewConroller.swift; sourceTree = "<group>"; };
 		A47E844D2122600D00096FCE /* DisplayNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayNotesViewController.swift; sourceTree = "<group>"; };
 		A4C0C2FA21225155008AFC9C /* RinniNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RinniNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,7 +51,6 @@
 				A4C0C2FF21225155008AFC9C /* ViewController.swift */,
 				A47E844B21225FC400096FCE /* ListNotesTableViewConroller.swift */,
 				A47E844D2122600D00096FCE /* DisplayNotesViewController.swift */,
-				A4105A5721236A83007257AB /* Notes.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -69,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				A4F3159721234ECA00071FD2 /* ListNotesTableViewCell.swift */,
+				A400DB372124E2E100DED78A /* CoreDataHelper.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -175,9 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A47E844C21225FC400096FCE /* ListNotesTableViewConroller.swift in Sources */,
-				A4105A5821236A83007257AB /* Notes.swift in Sources */,
 				A4F3159821234ECA00071FD2 /* ListNotesTableViewCell.swift in Sources */,
 				A47E844E2122600D00096FCE /* DisplayNotesViewController.swift in Sources */,
+				A400DB382124E2E100DED78A /* CoreDataHelper.swift in Sources */,
 				A4C0C30021225155008AFC9C /* ViewController.swift in Sources */,
 				A4C0C2FE21225155008AFC9C /* AppDelegate.swift in Sources */,
 				A4C0C30621225155008AFC9C /* RinniNotes.xcdatamodeld in Sources */,
